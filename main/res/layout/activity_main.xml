@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="112dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.003"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo_usk" />
+
+    <TextView
+        android:id="@+id/selamatDatang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang Mahasiswa Baru USK 2023"
+        android:textAlignment="center"
+        android:textColor="#AB63ED"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:id="@+id/namaMHS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nama"
+        android:textColor="#000000"
+        android:hint="Nama"
+        android:textColorHint="#FFFF00"
+        android:layout_marginTop="80dp"  />
+
+
+
+    <EditText
+        android:id="@+id/npmMHS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text="NPM"
+        android:textColor="#000000"
+        android:hint="NPM"
+        android:textColorHint="#FFFF00"
+        tools:layout_editor_absoluteY="254dp" />
+
+    <EditText
+        android:id="@+id/jurusanMHS"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:hint="Jurusan"
+        android:inputType="textPersonName"
+        android:text="Jurusan"
+        android:textColor="#000000"
+        android:textColorHint="#FFFF00"
+        tools:layout_editor_absoluteY="317dp" />
+    a
+    <Button
+        android:id="@+id/simpanButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        tools:layout_editor_absoluteY="421dp"
+        android:layout_marginTop="30dp"
+        />
+</LinearLayout>
